@@ -84,25 +84,6 @@ landing-gamer-tienda/
 
 [▶ Ver demo](https://lu-capu.github.io/landing-gamer-tienda/) · [💻 Ver código](https://github.com/Lu-Capu/landing-gamer-tienda)
 
-## 📚 Qué aprendí
-
-- **`rootMargin` con `IntersectionObserver`:** recortar un 10% por abajo
-  (`rootMargin: "0px 0px -10% 0px"`) hace que la animación se dispare al
-  asomar el elemento, y no cuando cruza el centro exacto. Sin eso, el reveal se
-  dispara y termina antes de que el scroll suave del nav llegue a la sección
-- **`unobserve` tras disparar:** el observer deja de vigilar el elemento una vez
-  visible, así no se acumula trabajo en cada scroll
-- **Progressive enhancement:** todo el contenido está en el HTML y el JS solo
-  añade movimiento. Si el JS falla, la página sigue siendo legible
-- **Validación nativa:** `checkValidity()` + `reportValidity()` da los mensajes
-  del navegador en el idioma del usuario, sin escribir validación a mano
-- **`{ passive: true }`** en los listeners de scroll: el navegador no tiene que
-  esperar al JS para decidir si cancela el scroll
-- **SVG inline** para los iconos sociales: sin peticiones extra y el color se
-  controla con `--accent-color` en CSS
-- **`<blockquote>` + `<cite>`** para testimonios, que es la semántica correcta y
-  además da estilos por defecto razonables
-
 ## ⚠️ Nota sobre el formulario
 
 El formulario tiene `action="#"`: **no envía nada a ningún servidor**, el
