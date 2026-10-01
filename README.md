@@ -4,8 +4,7 @@ Landing page para una tienda y servicio técnico de equipos gamer: venta de
 laptops, mouses y teclados, más reparación y mantenimiento. HTML, CSS y
 JavaScript sin dependencias ni build.
 
-![Portada](assets/portada.png)
-<!-- 👆 Reemplaza esta línea por tu captura. -->
+![Vista principal de la tienda](assets/portada.png)
 
 ## 🛠️ Tecnologías
 
@@ -73,12 +72,19 @@ landing-gamer-tienda/
 
 ## 📸 Capturas
 
-| Vista | Imagen |
+**Servicios**
+
+![Servicios](assets/servicios.png)
+
+**Testimonios y contacto**
+
+| Testimonios | Contacto |
 |---|---|
-| Portada | `assets/portada.png` |
-| Servicios | `assets/servicios.png` |
-| Testimonios y contacto | `assets/contacto.png` |
-| Móvil | `assets/movil.png` |
+| ![Testimonios](assets/testimonios.png) | ![Contacto](assets/contacto.png) |
+
+**Vista móvil**
+
+![Vista móvil](assets/movil.png)
 
 ## 🔗 Demo en vivo
 
